@@ -1,9 +1,12 @@
-﻿namespace OppgaveSimuleringFinneLoesningPaaFlaskeoppgaver;
-class Program
+﻿using System;
+namespace OppgaveSimuleringFinneLoesningPaaFlaskeoppgaver
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            Menu.Run();
+        }
+        
     }
 }
-
